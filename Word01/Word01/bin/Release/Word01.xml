@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Word01
+</name>
+</assembly>
+<members>
+<member name="M:Word01.Form1.fWord">
+	<summary>
+ Die Funktion wird vom Form1 mit Button1 gestartet
+ </summary>
+	<returns>true oder false</returns>
+	<remarks></remarks>
+</member><member name="M:Word01.Form1.Button2_Click(System.Object,System.EventArgs)">
+	<summary>
+ Beendet das Programm
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:Word01.Form1">
+	<summary>
+ Test zum Erstellen eines WORD-Dokuments
+ <param name="sender">Typ Object</param>
+		<param name="e">as EventArgs</param>
+	</summary>
+	<remarks></remarks>
+</member><member name="P:Word01.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Word01.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Word01.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Word01.NeueKlasse.TestSub">
+	<summary>
+		<seealso cref="M:Word01.NeueKlasse.TestFunction(System.DateTime@)"/>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:Word01.NeueKlasse.TestFunction(System.DateTime@)">
+	<summary>
+	</summary>
+	<param name="sDatum"></param>
+	<para>use <see cref="M:Word01.NeueKlasse.TestSub"/></para>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Word01.NeueKlasse.xTest">
+	<summary>
+		<para></para>
+		<seealso> cref=" TestFunction"/&gt;</seealso>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:Word01.NeueKlasse.UpdateRecord(System.Int32)">
+	<param name="id">The ID of the record to update.</param>
+	<remarks>Updates the record <paramref name="id"/>.
+ <para>Use <see cref="M:Word01.NeueKlasse.DoesRecordExist(System.Int32)"/> to verify that
+ the record exists before calling this method.</para>
+	</remarks>
+</member><member name="M:Word01.NeueKlasse.DoesRecordExist(System.Int32)">
+	<param name="id">The ID of the record to check.</param>
+	<returns><c>True</c> if <paramref name="id"/> exists,
+ <c>False</c> otherwise.</returns>
+	<remarks><seealso cref="M:Word01.NeueKlasse.UpdateRecord(System.Int32)"/></remarks>
+</member><member name="M:Word01.NeueKlasse.ttest">
+	<summary>
+  Gets the collection of source XML files.  See <see cref="T:System.Data.DataTable"/>
+	</summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
